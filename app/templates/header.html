@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block header %}
+	<div class="row" id="header_block">
+            <div class="col-md-3">
+    			<img class="logo" src="{{ url_for('static', filename='image/hadley-square.png') }}">
+    		</div>
+    		<div class="col-md-3 header_center">
+    			<span><a href="{{ url_for('index') }}">Home</a></span>
+            </div>
+            <div class="col-md-3 header_center">
+    			<span><a href="{{ url_for('projects') }}">Projects</a></span>
+    		</div>
+            <div class="col-md-3 header_center">
+    			<span><a href="{{ url_for('contact') }}">Contact</a></span>
+	    	</div>
+	</div>
+{% endblock %}

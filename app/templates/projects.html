@@ -1,0 +1,47 @@
+{% extends "header.html" %}
+{% block content %}
+	<div class="content-header">
+		<h3>Projects</h3>
+	</div>
+	<div class="content-body">
+		<div>
+			<h3>eMTee: Mileage Tracker</h3>
+			<div><a href="https://play.google.com/store/apps/details?id=com.automotive.hhi.mileagetracker">Play Store</a></div>
+			<div>eMTee is an android app used to log and track fuel mileage and cost for multiple vehicles.</div>
+			<div>It utilizes the My Gas Feed restful api to help locate gas stations, while using a SQLite backend to store each vehicle/fillup.</div>
+				<br>
+			<div>This app is a polished version of my Udacity Android Nanodegree capstone project, and is currently available</div>
+			<div>on the Google Play Store for free with ad support.</div>
+			<div>Libraries Used:
+				<ul>
+					<li><a href="https://developer.android.com/topic/libraries/support-library/index.html">Android Support</a></li>
+					<li><a href="http://jakewharton.github.io/butterknife/">Butterknife</a></li>
+					<li><a href="http://square.github.io/retrofit/">Retrofit</a></li>
+					<li><a href="http://square.github.io/picasso/">Picasso</a></li>
+					<li><a href="https://github.com/diogobernardino/WilliamChart">Williamchart</a></li>
+					<li><a href="https://github.com/google/gson">GSON</a></li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<h3>Spotify Streamer</h3>
+			<div><a href="https://github.com/JHadley1406/SpotifyStreamer">Github Repo</a></div>
+			<div>This android app was the second and third project for the Udacity Android Nanodegree.  This project interacts</div>
+			<div>with the Spotify restful API to allow users to search by Artist and stream song samples.  It uses fragments to provide both a phone and tablet UI.</div>
+			<div>Libraries Used:
+				<ul>
+					<li><a href="https://github.com/kaaes/spotify-web-api-android">Kaaes Spotify API</a></li>
+					<li><a href="http://square.github.io/retrofit/">Retrofit</a></li>
+					<li><a href="http://square.github.io/picasso/">Picasso</a></li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<h3>This Website</h3>
+			<div><a href="">Github</a></div>
+			<div>This site is implemented in Python using the <a href="http://flask.pocoo.org/">Flask</a> framework and <a href="http://getbootstrap.com/">Bootstrap</a>.  Hosted on a <a href="https://www.linode.com/">Linode</a> server</div>
+			<div>and served by an <a href="https://www.nginx.com/solutions/web-server/">Nginx</a> instance</div>
+			</div>
+		</div>
+    </div>
+{% endblock %}
